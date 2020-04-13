@@ -1,6 +1,19 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Advice Byte
+
+### A simple life advice app built using ReactJS on the front end and Advice Slip API. [Deployed](https://advice-byte.netlify.com/) using Netlify.
+
+As instructed by Javascript Mastery on YouTube.
+
+## Screenshots
+
+### Life Advice
+![Tip1](https://github.com/QuintonEL/AdviceByte/blob/master/docs/advice.png?raw=true)
+### Marathon Advice
+![Tip2](https://github.com/QuintonEL/AdviceByte/blob/master/docs/advice2.png?raw=true)
+
 
 ## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
