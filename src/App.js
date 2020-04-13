@@ -1,6 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 
+import StarfieldAnimation from 'react-starfield-animation'
+
 import './App.css'
 
 class App extends React.Component {
@@ -26,9 +28,16 @@ class App extends React.Component {
     const { advice } = this.state;
     return(
       <div className='app'>
+        <StarfieldAnimation
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%'
+        }}
+        />
         <div className='card'>
           <h1 className='heading'>{advice}</h1>
-          <button className='button' onClick={this.fetchAdvice}>
+          <button className='glow-on-hover' onClick={this.fetchAdvice}>
             <span>GIVE ME ADVICE!</span>
           </button>
         </div>
